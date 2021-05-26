@@ -5,7 +5,7 @@ let buttons = document.querySelectorAll('button');
 let screenValue = '';
 for (let item of buttons) {
     item.addEventListener('click', (e) => {
-        buttonText = e.target.innerText;
+        let buttonText = e.target.innerText;
         console.log(e)
 
         if (buttonText == 'X') {
